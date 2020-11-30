@@ -6,17 +6,20 @@ import {ChatApp} from "./c01/ChatApp";
 import {CommentBox} from "./c02/CommentBox";
 import {TabSelectorSample} from "./c02/TabSelector";
 import {StatefulTabSelectSample} from "./c02/StatefulTabSelector";
+import {Clock} from "./c03/Clock";
+import {SnapshotSample} from "./c04/SnapshotSample";
+import {AdvancedTabSelectorSample} from "./c06/AdvancedTabSelector";
 
 const routeMap = {
     chat: ChatApp,
     "comment-box": CommentBox,
     "tab-selector": TabSelectorSample,
     "stateful-tab-selector": StatefulTabSelectSample,
-    // "snapshot-sample": SnapshotSample,
+    clock: Clock,
+    "snapshot-sample": SnapshotSample,
     // "dom-diff": DomDiff,
-    // "adv-tab-selector": AdvancedTabSelectorSample,
+    "adv-tab-selector": AdvancedTabSelectorSample,
     // "locale-sample": LocaleSample,
-    // clock: Clock,
     // "pure-redux": PureRedux,
     // counter: Counter,
     // "async-action": AsyncAction,
