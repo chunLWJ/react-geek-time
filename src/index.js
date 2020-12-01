@@ -9,6 +9,8 @@ import {StatefulTabSelectSample} from "./c02/StatefulTabSelector";
 import {Clock} from "./c03/Clock";
 import {SnapshotSample} from "./c04/SnapshotSample";
 import {AdvancedTabSelectorSample} from "./c06/AdvancedTabSelector";
+import LocaleSample from './c07/LocalSample'
+import PerformanceSample from "./c08/PerformanceSample";
 
 const routeMap = {
     chat: ChatApp,
@@ -19,7 +21,8 @@ const routeMap = {
     "snapshot-sample": SnapshotSample,
     // "dom-diff": DomDiff,
     "adv-tab-selector": AdvancedTabSelectorSample,
-    // "locale-sample": LocaleSample,
+    "locale-sample": LocaleSample,
+    "performance-sample" : PerformanceSample
     // "pure-redux": PureRedux,
     // counter: Counter,
     // "async-action": AsyncAction,
