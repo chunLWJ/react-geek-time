@@ -11,6 +11,8 @@ import {SnapshotSample} from "./c04/SnapshotSample";
 import {AdvancedTabSelectorSample} from "./c06/AdvancedTabSelector";
 import LocaleSample from './c07/LocalSample'
 import PerformanceSample from "./c08/PerformanceSample";
+import {PureRedux} from "./c11/PureRedux";
+import {CounterSample} from "./c12/Counter";
 
 const routeMap = {
     chat: ChatApp,
@@ -22,9 +24,10 @@ const routeMap = {
     // "dom-diff": DomDiff,
     "adv-tab-selector": AdvancedTabSelectorSample,
     "locale-sample": LocaleSample,
-    "performance-sample" : PerformanceSample
-    // "pure-redux": PureRedux,
+    "performance-sample" : PerformanceSample,
+    "pure-redux": PureRedux,
     // counter: Counter,
+    counter: CounterSample,
     // "async-action": AsyncAction,
     // "redux-middleware": ReduxMiddleware,
     // "org-actions": OrgActions,
