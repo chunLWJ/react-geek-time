@@ -13,6 +13,7 @@ import LocaleSample from './c07/LocalSample'
 import PerformanceSample from "./c08/PerformanceSample";
 import {PureRedux} from "./c11/PureRedux";
 import {CounterSample} from "./c12/Counter";
+import {RouterSample} from "./c16/RouterSample";
 
 const routeMap = {
     chat: ChatApp,
@@ -31,7 +32,7 @@ const routeMap = {
     // "async-action": AsyncAction,
     // "redux-middleware": ReduxMiddleware,
     // "org-actions": OrgActions,
-    // "router-sample": RouterSample,
+    "router-sample": RouterSample,
     // "router-params": RouterParams,
     // "nested-route": NestedRoute,
     // "form-submit": FormSubmit,
